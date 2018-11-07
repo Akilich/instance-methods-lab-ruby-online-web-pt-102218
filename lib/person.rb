@@ -7,4 +7,4 @@ class Person
     puts "The Person is walking"
   end
 end
-fido = Dog.new
+ada = Person.new

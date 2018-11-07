@@ -1,8 +1,4 @@
 class Dog
-  bark = Dog.speak
-Dog.speak 
-puts "Woof!"
+  fido = Dog.new
+  Dog.new = bark
 end
-fido = Dog.new
-
-

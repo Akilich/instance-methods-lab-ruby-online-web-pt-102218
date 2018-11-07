@@ -3,5 +3,6 @@ class Dog
 Dog.speak 
 puts "Woof!"
 end
+fido = Dog.new
 
 

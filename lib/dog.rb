@@ -1,6 +1,6 @@
 class Dog
-  fido = Dog.new
-  
+
 end
+Fido = Dog.new
 bark = "Wolf!"
 fido.bark

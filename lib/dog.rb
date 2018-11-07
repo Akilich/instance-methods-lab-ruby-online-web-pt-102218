@@ -8,6 +8,6 @@ class Dog
   end
 end
 
-Fido = Dog.new("Fido")
+fido = Dog.new("Fido")
 fido.bark
 puts fido.bark

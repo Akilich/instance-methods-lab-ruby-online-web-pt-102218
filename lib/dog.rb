@@ -8,5 +8,5 @@ class Dog
   end
 end
 
-sparky = GoodDog.new("Sparky")
-sparky.speak
+Fido = Dog.new("Fido")
+fido.bark

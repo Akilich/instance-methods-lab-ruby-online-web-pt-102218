@@ -10,3 +10,4 @@ end
 
 Fido = Dog.new("Fido")
 fido.bark
+puts fido.bark

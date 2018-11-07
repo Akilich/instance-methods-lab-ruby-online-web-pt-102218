@@ -4,6 +4,8 @@ describe 'Dog' do
     expect(Dog).to be_a(Class)
   end
 
+      fido = Dog.new
+      fido.bark
   describe '#bark' do
     it 'responds to the #bark instance method' do
       expect(fido).to respond_to(:bark)
@@ -12,8 +14,6 @@ describe 'Dog' do
     it 'puts "Woof!"' do
       expect($stdout).to receive(:puts).with("Woof!")
 
-      fido = Dog.new
-      fido.bark
     end
   end
 

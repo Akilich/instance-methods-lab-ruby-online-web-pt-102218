@@ -1,6 +1,12 @@
 class Dog
+  def initialize(name)
+    @name = name
+  end
 
+  def bark
+    "Woof!"
+  end
 end
-Fido = Dog.new
-bark = "Wolf!"
-fido.bark
+
+sparky = GoodDog.new("Sparky")
+sparky.speak

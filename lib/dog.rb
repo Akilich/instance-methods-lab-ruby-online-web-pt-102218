@@ -7,5 +7,5 @@ class Dog
     "Woof!"
   end
 end
-
+fido = Dog.new
 puts fido.bark

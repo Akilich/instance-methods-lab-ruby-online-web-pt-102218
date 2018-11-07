@@ -7,3 +7,5 @@ class Dog
     "Woof!"
   end
 end
+
+puts fido.bark

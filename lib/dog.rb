@@ -8,3 +8,4 @@ puts fido.bark
   end
 end
 
+fido = Dog.new

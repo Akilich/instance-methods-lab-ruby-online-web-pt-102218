@@ -3,3 +3,4 @@ class Dog
   
 end
 bark = "Wolf!"
+fido.bark
